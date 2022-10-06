@@ -27,7 +27,7 @@ function Navigation() {
             <Nav.Link href="#action2">Products</Nav.Link>
             <NavDropdown title="Log In / Sign Up" id="navbarScrollingDropdown">
               <NavDropdown.Item as={Link} to="/auth" href="#action3">Log In</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item as={Link} to="/auth" href="#action4">
                 Sign Up
               </NavDropdown.Item>
            

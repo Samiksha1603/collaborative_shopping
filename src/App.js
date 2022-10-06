@@ -20,7 +20,7 @@ import { CartProvider } from "react-use-cart";
 function App() {
 return (
   <div className="App">
-    <Home/>
+    <Auth/>
  </div>
 
  );
